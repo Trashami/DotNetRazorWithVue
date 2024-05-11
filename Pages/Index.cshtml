@@ -1,0 +1,43 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container mt-5">
+    <div class="jumbotron">
+        <h1 class="display-4">Welcome to the GeoJason Project!</h1>
+        <p class="lead">This project is built using .NET 8 and leverages Razor Pages and Vue.js for a clean and efficient web development experience.</p>
+        <hr class="my-4">
+        <p>It integrates <strong>local authentication</strong> mechanisms to ensure secure access and uses the powerful <strong>ArcGIS Maps SDK for .NET</strong> to provide dynamic mapping capabilities.</p>
+        <p>Learn more about building modern web applications with ASP.NET Core:</p>
+        <p><a class="btn btn-primary btn-lg" href="https://docs.microsoft.com/aspnet/core" role="button">Learn More</a></p>
+    </div>
+
+    <div>
+        <h2>Project Overview</h2>
+        <p>This project is structured to utilize some of the best practices in software architecture:</p>
+        <ul>
+            <li><strong>Razor Pages:</strong> A page-based programming model that makes web UI easier and more productive.</li>
+            <li><strong>Local Authentication:</strong> Built-in identity management to securely manage user data and access.</li>
+            <li><strong>ArcGIS Maps SDK:</strong> Integrates spatial and geographic information system (GIS) functionalities directly into the application.</li>
+        </ul>
+        <h2>Getting Started</h2>
+        <p>To navigate the project, here are the main components:</p>
+        <ul>
+            <li><strong>Models Folder:</strong> Contains all data models used across the application, including identity models for authentication.</li>
+            <li><strong>Pages Folder:</strong> Home to all Razor Pages, organized by functionality (e.g., Home, Login, Map).</li>
+            <li><strong>Areas/Identity:</strong> Dedicated area for handling user authentication and authorization, including Razor Pages for account management.</li>
+        </ul>
+    </div>
+
+    <div>
+        <h2>Additional Resources</h2>
+        <p>Here are some additional resources to help you get more from the technologies used in this project:</p>
+        <ul>
+            <li><a href="https://developers.arcgis.com/net/latest/">ArcGIS SDK for .NET Documentation</a></li>
+            <li><a href="https://docs.microsoft.com/aspnet/core/security/authentication">ASP.NET Core Authentication</a></li>
+            <li><a href="https://docs.microsoft.com/aspnet/core/razor-pages">Razor Pages Overview</a></li>
+        </ul>
+    </div>
+</div>
